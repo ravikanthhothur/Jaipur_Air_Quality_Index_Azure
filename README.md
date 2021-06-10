@@ -1,2 +1,2 @@
-# Jaipur_Weather_Index_GCP_Deply
-Jaipur Weather index GCP deploy
+# Jaipur_Air_Quality_Index_GCP_Deply
+Jaipur Air Quality index GCP deploy
