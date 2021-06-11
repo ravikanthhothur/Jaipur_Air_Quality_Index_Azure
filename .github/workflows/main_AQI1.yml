@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'AQI1'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_d9d96f558354466d8c04abd06413eb5e }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_9e76aaf04e8a4ec6af00541c0bef1db1 }}
