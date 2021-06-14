@@ -7,12 +7,14 @@ app = Flask(__name__)
 model = pickle.load(open('randomForestRegressor.pkl','rb'))
 
 
+#@app is flask imported object app
 @app.route('/')
 def home():
     #return 'Hello World'
     return render_template('home.html')
     #return render_template('index.html')
 
+    #@app is flask imported object app
 @app.route('/predict',methods = ['POST'])
 def predict():
     int_features = [float(x) for x in request.form.values()]
@@ -25,6 +27,7 @@ def predict():
 
 
 # This is extra part in this code, For direct API calls trought request
+#@app is flask imported object app
 @app.route('/predict_api',methods=['POST'])
 def predict_api():
     '''
@@ -40,3 +43,4 @@ def predict_api():
 
 if __name__ == '__main__':
     app.run(debug=True)
+    #@app is flask imported object app
