@@ -2,6 +2,12 @@
 Jaipur Air Quality index Azure deploy
 For Azure Deploy we use this Github folder,Github not used for GCP deploy there we did via Google platform SDK
 
+## AZURE MICROSOFT CLOUD:
+Azure is microsoft provided Cloud
+Cloud is something, which provides everything to company like storage, network,Web API , Resource, Sever ,infrastructure etc
+In Azure Resource Groups are folder which contains all our Azure resources/Service
+
+
 ## JAIPUR'S Air Quality Index Problem:
 
 https://github.com/krishnaik06/Google-Cloud-Platform-Deployment
@@ -19,8 +25,9 @@ Here we didnt use GitHub
 
 ## Here main files are :
 		main.py
-		app.yaml
+		model.pkl
+		app.yaml(Not sure req in azure)
 		requirements.txt
-		randomForestRegressor.pkl
-    Static folder with style 
-    templates folder with home
+		templates folder with home.html
+		static folder with css folder with style file
+
